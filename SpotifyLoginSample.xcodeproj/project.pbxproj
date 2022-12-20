@@ -3,19 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2A9B5F6C2949CCC2001801A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9B5F6B2949CCC2001801A4 /* AppDelegate.swift */; };
 		2A9B5F6E2949CCC2001801A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9B5F6D2949CCC2001801A4 /* SceneDelegate.swift */; };
-		2A9B5F702949CCC2001801A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9B5F6F2949CCC2001801A4 /* ViewController.swift */; };
 		2A9B5F732949CCC2001801A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9B5F712949CCC2001801A4 /* Main.storyboard */; };
 		2A9B5F752949CCC3001801A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9B5F742949CCC3001801A4 /* Assets.xcassets */; };
 		2A9B5F782949CCC3001801A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9B5F762949CCC3001801A4 /* LaunchScreen.storyboard */; };
 		2A9B5F832949CCC3001801A4 /* SpotifyLoginSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9B5F822949CCC3001801A4 /* SpotifyLoginSampleTests.swift */; };
 		2A9B5F8D2949CCC3001801A4 /* SpotifyLoginSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9B5F8C2949CCC3001801A4 /* SpotifyLoginSampleUITests.swift */; };
 		2A9B5F8F2949CCC3001801A4 /* SpotifyLoginSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9B5F8E2949CCC3001801A4 /* SpotifyLoginSampleUITestsLaunchTests.swift */; };
+		2A9B5F9C294F48FC001801A4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9B5F9B294F48FC001801A4 /* LoginViewController.swift */; };
+		2A9B5F9E294F4F33001801A4 /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9B5F9D294F4F33001801A4 /* EnterEmailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		2A9B5F682949CCC2001801A4 /* SpotifyLoginSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyLoginSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9B5F6B2949CCC2001801A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A9B5F6D2949CCC2001801A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A9B5F6F2949CCC2001801A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A9B5F722949CCC2001801A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A9B5F742949CCC3001801A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A9B5F772949CCC3001801A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		2A9B5F882949CCC3001801A4 /* SpotifyLoginSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyLoginSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9B5F8C2949CCC3001801A4 /* SpotifyLoginSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyLoginSampleUITests.swift; sourceTree = "<group>"; };
 		2A9B5F8E2949CCC3001801A4 /* SpotifyLoginSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyLoginSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A9B5F9B294F48FC001801A4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2A9B5F9D294F4F33001801A4 /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				2A9B5F6B2949CCC2001801A4 /* AppDelegate.swift */,
 				2A9B5F6D2949CCC2001801A4 /* SceneDelegate.swift */,
-				2A9B5F6F2949CCC2001801A4 /* ViewController.swift */,
 				2A9B5F712949CCC2001801A4 /* Main.storyboard */,
+				2A9B5F9D294F4F33001801A4 /* EnterEmailViewController.swift */,
+				2A9B5F9B294F48FC001801A4 /* LoginViewController.swift */,
 				2A9B5F742949CCC3001801A4 /* Assets.xcassets */,
 				2A9B5F762949CCC3001801A4 /* LaunchScreen.storyboard */,
 				2A9B5F792949CCC3001801A4 /* Info.plist */,
@@ -143,6 +146,8 @@
 			dependencies = (
 			);
 			name = SpotifyLoginSample;
+			packageProductDependencies = (
+			);
 			productName = SpotifyLoginSample;
 			productReference = 2A9B5F682949CCC2001801A4 /* SpotifyLoginSample.app */;
 			productType = "com.apple.product-type.application";
@@ -207,7 +212,7 @@
 				};
 			};
 			buildConfigurationList = 2A9B5F632949CCC2001801A4 /* Build configuration list for PBXProject "SpotifyLoginSample" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -215,6 +220,8 @@
 				Base,
 			);
 			mainGroup = 2A9B5F5F2949CCC2001801A4;
+			packageReferences = (
+			);
 			productRefGroup = 2A9B5F692949CCC2001801A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9B5F702949CCC2001801A4 /* ViewController.swift in Sources */,
+				2A9B5F9C294F48FC001801A4 /* LoginViewController.swift in Sources */,
 				2A9B5F6C2949CCC2001801A4 /* AppDelegate.swift in Sources */,
+				2A9B5F9E294F4F33001801A4 /* EnterEmailViewController.swift in Sources */,
 				2A9B5F6E2949CCC2001801A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
